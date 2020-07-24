@@ -2,7 +2,7 @@
 
 https://compassionate-lalande-f41e7b.netlify.app/
 
-Given an HTML structure where we have a large (~200kB gzip) flex item
+Given an HTML structure where we have a large (~250kB gzip) flex item
 (`.content-container`) adjacent to a relatively small flex item
 (`.sidebar-container`), attempting to load the larger item first by placing it
 in the DOM first and using flex order to rearrange the visual order can cause
