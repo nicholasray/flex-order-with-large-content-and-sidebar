@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Demo: Using Flex-Order When One Item Is Extremely Large Causes Reflow</title>
 </head>
 <style>
   .flex-container {
@@ -10,13 +10,12 @@
   }
 
   .content-container {
-    order: 2;
+    order: 2; // Although the Content precedes the Sidebar in the DOM, make it visually appear second.
     background: #fefefe;
-    flex: 1;
   }
 
   .sidebar-container {
-    order: 1;
+    order: 1; // Although the Sidebar follows the content in the DOM, make it visually appear first.
     background: red;
     width: 180px;
   }
