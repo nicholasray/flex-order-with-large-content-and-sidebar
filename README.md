@@ -2,7 +2,7 @@
 
 Given an HTML structure where we have a  like the following:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,12 +15,14 @@ Given an HTML structure where we have a  like the following:
   }
 
   .content-container {
-    order: 2; // Although the Content precedes the Sidebar in the DOM, make it visually appear second.
+    /* Although the Content precedes the Sidebar in the DOM, make it visually appear second. */
+    order: 2; 
     background: #fefefe;
   }
 
   .sidebar-container {
-    order: 1; // Although the Sidebar follows the content in the DOM, make it visually appear first.
+    /* Although the Sidebar follows the content in the DOM, make it visually appear first. */
+    order: 1;
     background: red;
     width: 180px;
   }
