@@ -24,6 +24,7 @@ reflow issues:
     /* Although the Content precedes the Sidebar in the DOM, make it visually appear second. */
     order: 2; 
     background: #fefefe;
+    flex: 1;
   }
 
   .sidebar-container {
